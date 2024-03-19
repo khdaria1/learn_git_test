@@ -13,13 +13,13 @@ cat ./data/today_date.txt
 # 5) github 에 "day1" branch 로 저장
 #############################################################
 
+git checkout main
+
 git branch -a
 
 ...
 ...
 ...
-
-git checkout main
 
 
 ##### 미션.day2  #############################################
@@ -31,14 +31,16 @@ git checkout main
 # 4) "delete_data" 폴더 삭제
 # 5) github 에 "day2" branch 로 저장
 #############################################################
+# date "+%Y/%m/%d %H:%M:%S" > ./data/today_date.txt
+#############################################################
+
+git checkout main
 
 git branch -a
 
 ...
 ...
 ...
-
-git checkout main
 
 
 ##### 미션.day3  #############################################
@@ -53,14 +55,16 @@ git checkout main
 # 8) "day3" branch 삭제
 # 9) branch list 확인
 #############################################################
+# date "+%Y/%m/%d %H:%M:%S" > ./data/today_date.txt
+#############################################################
+
+git checkout main
 
 git branch -a
 
 ...
 ...
 ...
-
-git checkout main
 
 
 ##### 미션.tag  #############################################
@@ -69,6 +73,8 @@ git checkout main
 # 3) "v1.0" tag 의 commit hash 확인
 # 4) github 에 "v1.0" tag 올리기
 #############################################################
+
+git checkout main
 
 git tag
 
